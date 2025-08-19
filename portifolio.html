@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Arthur Saldanha</title>
+  <meta name="description" content="Portfólio Arthur Saldanha - Projetos, Habilidades e Contato." />
+
+  <!-- Bootstrap e Font Awesome -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+                <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Chakra+Petch:wght@300;400;600&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="portifolio.css" />
+</head>
+
+<body>
+  <!-- BOTÃO VOLTAR AO TOPO -->
+  <button id="backToTop" title="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+     <script>   
+    // Exibir botão "Voltar ao topo" quando rolar a página
+    window.onscroll = function () {
+      const backToTop = document.getElementById('backToTop');
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+      }
+    };
+
+    // Função para voltar ao topo
+    document.getElementById('backToTop').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+  
+  <!-- TOPO COM LOGO E MENU -->
+  <header>
+    <div class="logo" style=" backdrop-filter: blur(10px); background-color: #ffffff00; color: rgba(255, 254, 254, 0);">
+      <img src="Arthurtopo1234.png" alt="Arthur Saldanha"  href="#inicio"/>
+    </div>
+    <nav>  
+      <a href="#sobre-mim">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+         <a href="#habilidades">Habilidades</a>
+        <a href="#redes-sociais">Redes</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <!-- SEÇÃO DESTAQUE: cubo3d-->
+  <section id="inicio" data-aos="zoom-in" style="background: transparent; text-align: center; padding-top: 60px; padding-bottom: 60px; margin-top: 60px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0);" >
+    <div class="cubo-container">
+      <div class="cubo" id="cubo3d">
+        <div class="face front">
+          <a href="#projetos"><i class="fas fa-laptop-code"></i><span>Sites Profissionais</span></a> 
+        </div>
+        <div class="face back">
+          <a href="#habilidades"><i class="fas fa-palette"></i><span>Design Moderno</span></a>  
+        </div>
+        <div class="face right">
+          <a href="#contato"><i class="fas fa-mobile-alt"></i><span>Responsivo</span></a>
+        </div>
+        <div class="face left">
+          <a href="#"><i class="fas fa-chart-line"></i><span>SEO Otimizado</span></a> 
+        </div>
+        <div class="face top">
+          <a href="#"><i class="fas fa-rocket"></i><span>Performance</span></a> 
+        </div>
+        <div class="face bottom">
+          <a href="#"><i class="fas fa-headset"></i><span>Suporte Rápido</span></a>  
+        </div>
+      </div>
+    </div>
+  
+  <style>
+    /* Botão Voltar ao Topo */
+    #backToTop {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #111;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50%;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+      display: none;
+      z-index: 1000;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }   
+  </style>
+
+    <h5> Hello world👋</h5>
+    <h1>Bem-vindo ao meu portfólio</h1>
+</section>
+
+<!-- SEÇÃO SOBRE MIM -->
+<section id="sobre-mim" data-aos="fade-right" class="container" style="background: transparent; padding: 50px 20px; margin-bottom: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0);">
+    <h2 class="text-center mb-4">Sobre Mim</h2>
+<section class="sobre-mim" style=" background-color: #00000000; padding: 20px;  border-radius: 5px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.415);">
+     <div class="wrapper">
+        <div class="col-a">
+     <h2 style="align-items: center; display: flex; flex-direction: column; justify-content: center; text-align: center; "></h2>
+   <header data-sr-id="7" style="color: aliceblue; opacity: 0,5; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: all, opacity 1s cubic-bezier(1, 0, 0, 1), transform 1s cubic-bezier(0.5, 0, 0, 1); align-items: center; display: flex; flex-direction: column; justify-content: center; text-align: center;">
+ <img src="foto.jpeg" alt="Arthur Saldanha" style="width: 250px; height: auto; border-radius: 50%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.903); " />
+             
+  <div class="digitar" id="texto"></div>
+
+<script>
+  const textoElemento = document.getElementById("texto");
+  const textoCompleto = "olá eu sou o DEV Arthur Saldanha";
+  let i = 0;
+  let iniciado = false; 
+
+  function digitarTexto() {
+    if (i < textoCompleto.length) {
+      textoElemento.textContent += textoCompleto.charAt(i);
+      i++;
+      setTimeout(digitarTexto, 50); 
+    }
+  }
+
+  // script para só iniciar quando entrar na tela
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !iniciado) {
+        iniciado = true;
+        digitarTexto();
+      }
+    });
+  }, { threshold: 0.5 });
+ observer.observe(textoElemento);
+</script>
+
+</header>
+  </div>
+     <div class="col-b">
+      <p style="position: relative; flex-direction: column; display: flex; text-align: center;color: #deeaff; ">Olá! Meu nome é Arthur Saldanha, sou um desenvolvedor web front-end apaixonado por criar experiências digitais incríveis. Com habilidades em HTML, CSS, JavaScript e frameworks modernos, estou sempre buscando aprender e inovar. Meu objetivo é transformar ideias em realidade através de soluções web eficientes e atraentes. Vamos construir algo incrível juntos!</p>
+    </section>
+ </div></section>
+
+
+    
+  <!-- PROJETOS -->
+<section id="projetos" data-aos="fade-left" class="container" style="background: transparent; padding: 50px 20px; margin-bottom: 50px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0);">
+  <h2 class="text-center mb-4">Projetos Recentes</h2>
+
+  <div class="row g-4">
+
+    <!-- Projeto 1 -->
+    <div class="col-md-4">
+      <div class="card project-card text-white" style="background: rgba(44, 44, 44, 0.12);">
+        <div class="card-body text-center">
+          <h5 class="card-title">Portifolio</h5>
+          <div class="img-wrapper">
+            <img src="20250819_014756(1).gif" alt="gif do projeto" style="max-width: 100%; border-radius: 8px;">
+          </div>
+          <p>linguagens ultilizada</p>
+          <p>HTML - CSS - JAVASCRIPT - BOOTSTRAP - THREEJS</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 2 -->
+    <div class="col-md-4">
+      <div class="card project-card text-white" style="background: rgba(44, 44, 44, 0.12);">
+        <div class="card-body text-center">
+          <h5 class="card-title">front page Pizzaria</h5>
+          <div class="img-wrapper">
+            <img src="20250710_183120(2).gif" alt="gif do projeto" style="max-width: 100%; border-radius: 8px;">
+          </div>
+          <p>linguagens ultilizada</p>
+          <p>HTML - CSS - JAVASCRIPT - BOOTSTRAP</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 3 -->
+    <div class="col-md-4">
+      <div class="card project-card text-white" style="background: rgba(44, 44, 44, 0.12);">
+        <div class="card-body text-center">
+          <h5 class="card-title">Cartas Super Trunfo</h5>
+          <div class="img-wrapper">
+            <img src="Supertrunfo.gif" alt="gif do projeto" style="max-width: 100%; border-radius: 8px;">
+          </div>
+          <p>linguagens ultilizada</p>
+          <p> C </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projeto 4 -->
+    <div class="col-md-4">
+      <div class="card project-card text-white" style="background: rgba(44, 44, 44, 0.12);">
+        <div class="card-body text-center">
+          <h5 class="card-title">Em Breve</h5>
+          <h1 style="color: #ffffff;">...</h1>
+          <div class="img-wrapper">
+            <img src="" alt="  " style="max-width: 100%; border-radius: 8px;">
+          </div>
+          <br/>
+          <p>Aprendizado constante!</p>
+          
+          <p> em breve mais projetos!</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<br/><br/>
+
+  <!-- HABILIDADES -->
+  <div class="container">
+    <br />   <br />   <br />
+<section id="habilidades" data-aos="fade-right" class="content flex-column justify-content-center align-items-center vh-100" style="background: transparent;  border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0); margin-top: 100px;">
+  
+    <br />   <br />   <br /> <br><br><br><h2 class="mb-4">Habilidades</h2>
+
+  
+  <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+    <span class="tag"><i class="fab fa-css3-alt"></i> CSS</span>
+        <span class="tag"><i class="fab fa-php"></i> PHP</span>
+            <span class="tag"><i class="fab fa-html5"></i> HTML5</span>
+                <span class="tag"><i class="fab fa-js"></i> JAVASCRIPT</span>
+                    <span class="tag"><i class="fab fa-bootstrap"></i> BOOTSTRAP</span>
+                        <span class="tag"><i class="fab fa-python"></i> PYTHON</span>
+                            <span class="tag"><i class="fas fa-database"></i> SQL</span>
+                        <span class="tag"><i class="fas fa-code"></i> C</span>
+                    <span class="tag"><i class="fas fa-envelope"></i> OFFICE356</span>
+                <span class="tag"><i class="fab fa-github"></i> GITHUB</span>
+            <span class="tag"><i class="fas fa-headset"></i> SUPORTE</span>
+        <span class="tag"><i class="fas fa-globe"></i> WEB</span>
+    <span class="tag"><i class="fas fa-pencil-ruler"></i> UI/UIX</span>
+  </div> 
+
+  <section class="services text-center" style="background: transparent;  border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0); margin-top: -150px;">
+  <ul class="list-unstyled text-center mb-0">  
+    <li><i class="fas fa-check"></i> Desenvolvimento de Aplicações Web</li>
+        <li><i class="fas fa-check"></i> Criação de Landing Pages</li>
+            <li><i class="fas fa-check"></i> Otimização para SEO</li>
+                <li><i class="fas fa-check"></i> Desenvolvimento Web</li>
+            <li><i class="fas fa-check"></i> Design Responsivo</li>
+        <li><i class="fas fa-check"></i> Otimização de Performance</li>
+    <li><i class="fas fa-check"></i> Suporte Técnico</li>
+    </ul>
+
+  </section> </section>
+  </div>
+<br />
+    <div class="cosmos-background">
+        <div class="stars-container"></div>
+    </div>
+            <div class="carousel-container">
+                <div class="carousel" id="memory-carousel">
+                  </div></div>
+          </div>          
+    </div>
+</body>
+    <br />   <br />   <br />
+    
+
+ 
+
+    <!-- REDES SOCIAIS -->
+<section id="redes-sociais" data-aos="fade-left" class="content py-5" style="background-color: #f7f7f700;  border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0);">
+      <ul class="social-staircase" style="list-style: none; padding-left: 0; margin: 0;">
+
+        <li style="margin-bottom: 18px; margin-left: 0px;">
+          <a href="https://www.linkedin.com/in/arthur-saldanha-495587343/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: #317dff; text-decoration: none; font-size: 1.2rem;">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <span> - linkedin</span>
+          </a>
+        </li>
+        <li style="margin-bottom: 18px; margin-left: 30px;">
+          <a href="https://github.com/ArthurSaldanha266" style="color: #56daf7; text-decoration: none; font-size: 1.2rem;">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <span> - GitHub</span>
+          </a>
+        </li>
+        <li style="margin-bottom: 18px; margin-left: 50px;">
+          <a href="mailto:arthursilvaleao020606@gmail.com" style="color: #ef572c; text-decoration: none; font-size: 1.2rem;">
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
+            <span> - Google</span>
+          </a>
+        </li>
+        <li style="margin-bottom: 18px; margin-left: 80px;">
+          <a href="https://www.instagram.com/_arthur266_?igsh=MWtyODg4N2llcmlndQ==" style="color: #e94040; text-decoration: none; font-size: 1.2rem;">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <span> - Instagram</span>
+          </a>
+        </li>
+      </ul>
+   </section>
+
+    <br />  
+  <!-- CONTATO -->
+  <section id="contato" data-aos="fade-right" class="container py-5 " style=" background-color: #f7f7f700;  border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0);">
+    <h2 class="text-center">Contato</h2>
+    <form action="mailto:arthursilvaleao020606@gmail.com" method="POST" enctype="text/plain">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="nome" name="nome" required />
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required />
+      </div>
+      <div class="mb-3">
+        <label for="mensagem" class="form-label">Mensagem:</label>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+
+  <!-- (Mascote 3D) -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <model-viewer id="mascote-okweb"
+    src="arthur3d.glb" alt="Mascote Arthur andando" autoplay animation-name="Walking" shadow-intensity="1" disable-zoom camera-controls interaction-prompt="none" style="width: 240px; height: 340px; position: fixed; z-index: 999; pointer-events: auto; right: 30px; bottom: 30px; left: auto; top: auto; transition: right 0.1s linear, bottom 0.1s linear, left 0.1s linear, top 0.1s linear;">
+  </model-viewer>
+
+  <script>
+    const mascote = document.getElementById("mascote-okweb");
+    let dragging = false;
+    let offsetX = 0, offsetY = 0;
+
+    // Entrada animada
+    window.addEventListener("DOMContentLoaded", () => {
+      mascote.style.opacity = 0;
+      mascote.style.transform = "translateY(40px)";
+      setTimeout(() => {
+        mascote.style.transition = "all 0.8s ease-out";
+        mascote.style.opacity = 1;
+        mascote.style.transform = "translateY(0)";
+      }, 500);
+    });
+
+    // Mascote pode ser arrastado pelo cursor
+    mascote.addEventListener("mousedown", (e) => {
+      dragging = true;
+      mascote.style.transition = "none";
+      const rect = mascote.getBoundingClientRect();
+      offsetX = e.clientX - rect.left;
+      offsetY = e.clientY - rect.top;
+      document.body.style.userSelect = "none";
+    });
+
+    document.addEventListener("mousemove", (e) => {
+      if (!dragging) return;
+      let left = e.clientX - offsetX;
+      let top = e.clientY - offsetY;
+      left = Math.max(0, Math.min(window.innerWidth - mascote.offsetWidth, left));
+      top = Math.max(0, Math.min(window.innerHeight - mascote.offsetHeight, top));
+      mascote.style.left = left + "px";
+      mascote.style.top = top + "px";
+      mascote.style.right = "auto";
+      mascote.style.bottom = "auto";
+      mascote.style.position = "fixed";
+    });
+
+    document.addEventListener("mouseup", () => {
+      dragging = false;
+      mascote.style.transition = "right 0.1s linear, bottom 0.1s linear, left 0.1s linear, top 0.1s linear";
+      document.body.style.userSelect = "";
+    });
+
+    function fixMascoteOnScroll() {
+      if (!dragging) {
+        mascote.style.right = "30px";
+        mascote.style.bottom = "30px";
+        mascote.style.left = "auto";
+        mascote.style.top = "auto";
+        mascote.style.position = "fixed";
+      }
+    }
+    window.addEventListener("scroll", fixMascoteOnScroll);
+    window.addEventListener("resize", fixMascoteOnScroll);
+
+    mascote.addEventListener("click", () => {
+      mascote.classList.add("clicked-spin");
+      setTimeout(() => mascote.classList.remove("clicked-spin"), 1000);
+    });
+  </script>
+
+  <style>
+    model-viewer.clicked-spin {
+      animation: spinAnim 1s ease-in-out;
+    }
+    @keyframes spinAnim {
+      0% { transform: scale(1) rotateY(0deg); }
+      50% { transform: scale(1.1) rotateY(15deg); }
+      100% { transform: scale(1) rotateY(0deg); }
+    }
+  </style>
+
+  <!-- Botão para falar -->
+  <button id="falar-btn" style="position: fixed; bottom: 370px; right: 30px; z-index: 1000; background-color: #0051ff8c; color: #000; border: none; padding: 10px 15px; border-radius: 12px; font-size: 16px; cursor: pointer; font-weight: bold;">
+    <i class="fas fa-volume-up"></i> 👋 Bem-vindo!
+  </button>
+  <script>
+    const btn = document.getElementById("falar-btn");
+    let falando = false;
+    btn.addEventListener("click", () => {
+      if (falando) return;
+      falando = true;
+      btn.textContent = "🎤 Falando...";
+      btn.style.backgroundColor = "#003dbb";
+      const frase = "Olá! Bem-vindo ao meu portfólio! meu nome é Arthur Saldanha, sou desenvolvedor web front-end. é um prazer ter você aqui!";
+      const voz = new SpeechSynthesisUtterance(frase);
+      voz.lang = "pt-BR";
+      window.speechSynthesis.speak(voz);
+      voz.onend = () => {
+        falando = false;
+        btn.textContent = "👋 Bem-vindo!";
+        btn.style.backgroundColor = "#0051ff8c";
+      };
+    });
+  
+  </script>
+
+</body>
+
+<!-- rodapé -->
+<footer class="main-footer" style="background: linear-gradient(0deg, rgba(24, 24, 24, 0.441), rgba(0, 109, 243, 0.129)); ">
+        <div class="container">
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                        <div class="logo-widget footer-widget">
+                            <div class="logo-box">
+                                <a href="inicio"><img src="arthursal1.png" alt="Arthur Saldanha" title="portifolio Arthur Saldanha  - Criação de Sites Profissionais"></a>
+                                <p style="margin-top: -300px;">sou um desenvolvedor web front-end em constante evolução, um apaixonado pela tecnologia. Ja trabalhei como suporte ao cliente lidando tanto com hardware quanto com o software.</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 offset-lg-2 footer-column">
+            <div class="service-widget footer-widget">
+        <div class="footer-title">SERVIÇOS</div>
+                          
+    <p class="fas fa-check"></i> Desenvolvimento de Aplicacoes Web</p>
+        <p class="fas fa-check"></i> Criação de Landing Pages</p>
+            <p class="fas fa-check"></i> Otimização para SEO</p>
+                <p class="fas fa-check"></i> Desenvolvimento Web</p>
+            <p class="fas fa-check"></i> Design Responsivo</p>
+        <p class="fas fa-check"></i> Otimização de Performance</p>
+    <p class="fas fa-check"></i> Suporte Técnico</p>
+                        </div>
+                            </div>
+                                 <div class="col-lg-3 col-md-6 col-sm-12 footer-widget">
+                                    <div class="contact-widget footer-widget">
+                                <div class="footer-title">CONTATOS</div>
+                            <div class="text">
+    <p class="fas fa-check"></i> Rua Exemplo, 123</p>
+        <p class="fas fa-check"></i> Guarulhos, São Paulo</p>
+    <p class="fas fa-check"></i> (61) 99334-7133</p>
+  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+</footer>
+    <div class="footer-bottom" style=" text-align: center; margin-bottom: auto;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                    <div class="copyright"><a href="inicio">Arthur Saldanha da Silva Leao</a> &copy; 2025 All Right Reserved</div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, 
+    once: true      
+  });
+</script>
+
+</body>
+</html>
