@@ -18,6 +18,24 @@ body {
     background: linear-gradient(0deg, rgba(0, 186, 254, 0.216), rgba(205, 200, 200, 0.882));
   background-size: cover;
 }
+@media (max-width: 768px) {
+  header {
+    flex-direction: column; 
+    align-items: center;    
+  }
+  
+  nav {
+    margin-top: 15px;
+    flex-direction: column; 
+    gap: 10px;              
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;        
+  }
+}
+
 
 /* Estilos do cubo 3D */
 
@@ -90,6 +108,17 @@ body {
 @keyframes autoGirar {
   from { transform: rotateX(0deg) rotateY(0deg); }
   to   { transform: rotateX(360deg) rotateY(360deg); }
+}
+@media (max-width: 480px) {
+  .cubo-container {
+    width: 150px;
+    height: 150px;
+  }
+
+  .face {
+    width: 150px;
+    height: 150px;
+  }
 }
 
 
@@ -257,6 +286,17 @@ font-family: monospace;
     white-space: normal;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 90%;
+  }
+}
 
 
 /* Habilidades */
@@ -290,6 +330,15 @@ font-family: monospace;
     color: #00000000;
   font-size: 1.2rem;
 }
+
+@media (max-width: 768px) {
+  .tag-list {
+    width: 90%;  
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 
 /* Formulário */
 form {
@@ -558,6 +607,34 @@ ul li:hover:nth-child(4) a:before {
 ul li:hover:nth-child(4) a:after {
   background: #e46880;
 }
+@media (max-width: 768px) {
+  ul.socials {
+    top: auto;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    background: rgba(0,0,0,0.2);
+    padding: 5px 10px;
+    border-radius: 30px;
+  }
+
+  ul.socials li a {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    justify-content: center;
+    border-radius: 50%;
+    transform: skew(0deg);
+  }
+
+  ul.socials li a .fa,
+  ul.socials li a span {
+    transform: none;
+    margin: 0;
+    font-size: 20px;
+  }
+}
 
 
 
@@ -615,6 +692,7 @@ a:hover {
     padding: 20px;
   }
 }
+
 /* Rodapé  & contato*/
 .logo-box {
     margin-bottom: 20px;
@@ -647,7 +725,7 @@ ul {
 .footer-content:before{
   position: absolute;
     content: '';
-     width: 744px;
+ width: 744px;
     height: 365px;
   top: 50px;
   right: 0px;
@@ -803,4 +881,12 @@ ul {
       position: center;
       overflow: hidden;
     }
-    
+    @media (max-width: 768px) {
+  .footer-content .logo-widget,
+  .footer-content .service-widget,
+  .footer-content .contact-widget {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
+
